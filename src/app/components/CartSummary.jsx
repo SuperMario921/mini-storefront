@@ -1,6 +1,7 @@
 'use client';
 
 export default function CartSummary({ items = [], total = 0, onDecrement, onReset }) {
+  // Check if cart has any items
   const hasItems = items.length > 0;
 
   return (
