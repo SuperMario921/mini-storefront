@@ -1,6 +1,7 @@
 'use client';
 
 export default function ProductCard({ product, onAdd }) {
+    // Check to see if the product is out of stock
     const outOfStock = product.stock <= 0;
 
     return (
